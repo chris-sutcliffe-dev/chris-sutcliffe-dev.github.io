@@ -30,6 +30,26 @@ body, html {
   font-size: 25px;
 }
 
+.container_pink {
+  /* Background image */
+  background-color: pink;
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Helvetica", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+}
+
+
 
 /* Position text in the middle */
 .middle {
@@ -44,4 +64,42 @@ body, html {
 hr {
   margin: auto;
   width: 40%;
-} 
+}
+
+
+
+/* Code to make heart extracted from https://css-shape.com/heart/ */
+.heart {
+  height: 250px; /* adjust to control the size */
+  aspect-ratio: 1;
+  --_m: radial-gradient(#000 69%,#0000 70%) 84.5%/50%;
+  -webkit-mask-box-image: var(--_m);
+  mask-border: var(--_m);
+  clip-path: polygon(-41% 0,50% 91%, 141% 0);
+  background: #ef107f;
+  text-align: center;
+  animation: beat .25s infinite alternate;
+
+  /* Flexbox properties for centring content */
+  display: flex;
+  justify-content: center; /* Horizontally centre the text */
+  align-items: center; /* Vertically centre the text */
+}
+
+/* Heart beat animation
+Taken from: https://codepen.io/fivera/pen/AMzMbQ
+*/
+@keyframes beat{
+  to { transform: scale(1.4); }
+}
+
+
+/* fallback until better support for mask-border */
+@supports not (-webkit-mask-box-image: var(--_m)) {
+  .heart {
+    mask:
+            radial-gradient(at 70% 31%,#000 29%,#0000 30%),
+            radial-gradient(at 30% 31%,#000 29%,#0000 30%),
+            linear-gradient(#000 0 0) bottom/100% 50% no-repeat;
+  }
+}
