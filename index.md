@@ -13,7 +13,7 @@ layout: home
 [//]: # (</div>)
 
 <div style="float: right; margin-left: 20px; margin-bottom: 10px;">
-    <img src="./face.jpeg" alt="Your Image Description" width="300" />
+    <img src="assets/images/face.jpeg" alt="My face" width="300" />
 </div>
  
 
