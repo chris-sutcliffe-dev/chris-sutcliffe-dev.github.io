@@ -25,6 +25,6 @@ Outside of programming, I'm interested in lots of different things including (bu
 * Public transport (in particular rail transport such trams 🚋 and trains 🚅)
 * Cars (especially late 80s to mid 2000s coupes and hatchbacks)
 * Formula 1 🏎 
-* British dance music (anything between 140-170 bpm e.g. Dubstep, Garage, Bassline, Hardcore, Jungle, Drum and Drum and Bass etc.)
+* British dance music (anything between 140-170 bpm e.g. Dubstep, Garage, Bassline, Hardcore, Jungle, Drum and Bass etc.)
 
 I have a blog where I discuss just about anything I find interesting. You can find it by clicking the 'blog' link above!
